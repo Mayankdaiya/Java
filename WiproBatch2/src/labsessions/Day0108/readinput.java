@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class readinput {
 	public static void filecontent() throws IOException {
-		FileInputStream file = new FileInputStream("file.txt");
+		FileInputStream file = new FileInputStream("WiproBatch2/Files/file.txt");
 		int data;
 		while((data=file.read()) != -1) {
 			System.out.print((char)data);

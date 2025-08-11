@@ -11,7 +11,7 @@ public class filterInpurStream {
 	
 	public static void write() {
 		try {
-			FileOutputStream file = new FileOutputStream("file.txt",true); // append mode true
+			FileOutputStream file = new FileOutputStream("WiproBatch2/Files/file.txt",true); // append mode true
 			FilterOutputStream filter = new BufferedOutputStream(file); // wrap above with buffered input stream
 			// write the file content
 			String text = "This is apple, banana";
@@ -24,7 +24,7 @@ public class filterInpurStream {
 	}
 	public static void read() {
 		try {
-			FileInputStream file = new FileInputStream("file.txt"); // creating file input stream for it
+			FileInputStream file = new FileInputStream("WiproBatch2/Files/file.txt"); // creating file input stream for it
 			FilterInputStream filter = new BufferedInputStream(file); // wrap above with buffered input stream
 			// read and print the file content
 			int data;

@@ -2,7 +2,6 @@ package Day3107;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.Writer;
 
 public class fileHandling {
 	
@@ -24,7 +23,7 @@ public class fileHandling {
 	
 	public static void writingData() {
 		try {
-			FileOutputStream out = new FileOutputStream("file2.txt");
+			FileOutputStream out = new FileOutputStream("WiproBatch2/Files/file2.txt");
 			String str = "This is my another file in which i am writing";
 			out.write(str.getBytes());
 			System.out.println("Data writed successfully!");
@@ -37,7 +36,7 @@ public class fileHandling {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		writingData();
-		inputData("file.txt");
+		inputData("WiproBatch2/Files/file.txt");
 	}
 
 }

@@ -11,7 +11,7 @@ public class charArray {
 		// TODO Auto-generated method stub
 		CharArrayWriter cw = new CharArrayWriter();
 		cw.write("This is char array writer");
-		cw.writeTo(new FileWriter("file.txt"));
+		cw.writeTo(new FileWriter("WiproBatch2/Files/file.txt"));
 		//read the data
 		CharArrayReader cr = new CharArrayReader(cw.toCharArray());
 		int i;
